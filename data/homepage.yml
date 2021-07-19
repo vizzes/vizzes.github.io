@@ -7,7 +7,7 @@ banner:
   buttons:
     - title: "Discord"
       icon: "fa-comments"
-      link: "/discord"
+      link: "https://discord.gg/CWYg9rSEyq"
 
 ### Highlight ###
 highlight:
