@@ -1101,10 +1101,12 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 			&:hover {
 				background-color: _palette(border-bg);
+				color: darkgrey;
 			}
 
 			&:active {
 				background-color: _palette(border2-bg);
+				color: black;
 			}
 
 			&.icon {
@@ -1254,6 +1256,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 			&:hover {
 				background-color: transparentize(_palette(header, fg-light), 0.75);
+				color: black;
 			}
 
 			&:active {

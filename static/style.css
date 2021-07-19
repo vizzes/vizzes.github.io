@@ -2767,6 +2767,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #737373;
+			color: darkgrey;
 		}
 
 		input[type="submit"]:active,
@@ -2774,6 +2775,7 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: #595959;
+			color: black;
 		}
 
 		input[type="submit"].icon,
@@ -2829,6 +2831,7 @@
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background-color: #f8f8f8;
+				color: darkgrey;
 			}
 
 			input[type="submit"].alt:active,
@@ -2836,6 +2839,7 @@
 			input[type="button"].alt:active,
 			.button.alt:active {
 				background-color: #f0f0f0;
+				color: black;
 			}
 
 			input[type="submit"].alt.icon:before,
