@@ -6,8 +6,14 @@ banner:
   content: "Der beste deutsche Minecraft Server" # Change this if you want something other then the site description
   buttons:
     - title: "Discord"
-      icon: "fa-comments"
+      icon: "brands fa-discord"
       link: "https://discord.gg/CWYg9rSEyq"
+    - title: "Neuigkeiten"
+      icon: "solid fa-bullhorn"
+      link: "/news"
+    - title: "Forum"
+      icon: "solid fa-comments"
+      link: "/forum"
 
 ### Highlight ###
 highlight:
@@ -50,9 +56,9 @@ stats:
 
 ### News ###
 news:
-  enable: true
+  enable: false
   # Leave header text blank to remove entire <section>
-  header: "News"
+  header: "Neuigkeiten"
   buttonText: "Lese mehr"
   postCount: 1
 

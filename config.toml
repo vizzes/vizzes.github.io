@@ -7,10 +7,7 @@ disqusShortname = "mc-vizzes"
 [params]
   description = "Der beste deutsche Minecraft Server"
   images = ["/img/logo.png"]
-  author = ""
   copyright = "Copyright © Vizzes."
-  design = ""
-  mainSections = ["blog"]
 
 [[params.share]]
 title = "twitter"
@@ -44,7 +41,6 @@ enableEmoji = true
   [markup.highlight]
     codeFences = true
     guessSyntax = false
-    hl_Lines = ""
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
