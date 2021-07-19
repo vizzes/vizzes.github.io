@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/runner/work/Site/Site",
+	"sourceRoot": "/home/runner/work/vizzes.github.io/vizzes.github.io",
 	"sources": [
 		"themes/hugo-html5up-alpha/assets/sass/main.scss",
 		"themes/hugo-html5up-alpha/assets/sass/libs/_vars.scss",
