@@ -7,7 +7,7 @@ disqusShortname = "mc-vizzes"
 [params]
   description = "Der beste deutsche Minecraft Server"
   images = ["/img/logo.png"]
-  copyright = "Copyright © Vizzes."
+  copyright = true
 
 [[params.share]]
 title = "twitter"
