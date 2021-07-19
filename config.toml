@@ -2,7 +2,7 @@ languageCode = "de"
 title = "mc.vizzes.de"
 baseURL = "/"
 theme = "hugo-html5up-alpha"
-disqusShortname = "pukimas-personal-website"
+disqusShortname = "mc-vizzes"
 
 [params]
   description = "Der beste deutsche Minecraft Server"
