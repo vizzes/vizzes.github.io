@@ -13,7 +13,7 @@
             <nav id="banner">
             {{ if .Site.Data.homepage.banner.enable }}
             {{ with .Site.Data.homepage.banner }}
-                <h2><img src="https://goosemod.com/img/logo.jpg" style="height: 1em; vertical-align: bottom; border-radius: 50%; margin-right: 5px;"> {{ .title }}</h2>
+                <h2><img src="/img/logo.png" style="height: 1em; vertical-align: bottom; border-radius: 50%; margin-right: 5px;"> {{ .title }}</h2>
                 <p>{{ with .content }}{{ . }}{{else}}{{ $.Site.Params.description }}{{end}}</p>
                 <ul class="actions special">
                 {{ range .buttons }}
@@ -72,8 +72,8 @@
                 {{ end }}
 
                 <!-- Posts -->
-                {{ if .Site.Data.homepage.blog.enable }}
-                {{ with $blogSettings := .Site.Data.homepage.blog }}
+                {{ if .Site.Data.homepage.news.enable }}
+                {{ with $newsSettings := .Site.Data.homepage.news }}
                   {{ with .header }}
                   <header class="major">
                       <h2>{{ . }}</h2>
@@ -94,7 +94,7 @@
                                   <p>{{ .Summary }}</p>
                                   {{ end }}
                                   <ul class="actions special">
-                                      <li><a href="{{ .Permalink }}" class="button alt">{{ $blogSettings.buttonText }} </a></li>
+                                      <li><a href="{{ .Permalink }}" class="button alt">{{ $newsSettings.buttonText }} </a></li>
                                   </ul>
                               </section>
                           </div>
@@ -105,7 +105,7 @@
                 {{ template "_internal/pagination.html" . }}
 
                 <section style="padding: 0;" class="box">
-                    <span class="image featured" style="margin: 0; width: 100%;"><img style="border-radius: 6px;" src="https://media.discordapp.net/attachments/756146058924392545/854274691672834048/gm_ss_store.png" alt="" /></span>
+                    <span class="image featured" style="margin: 0; width: 100%;"><img style="border-radius: 6px;" src="https://cdn.discordapp.com/attachments/841766301622206464/848987498852122625/unknown.png" alt="" /></span>
                 </section>
             </section>
 
@@ -131,6 +131,5 @@
 
             {{- partial "footer.html" . -}}
         </div>
-        {{- partial "installer.html" .Site.Data.homepage.installer -}}
     </body>
 </html>

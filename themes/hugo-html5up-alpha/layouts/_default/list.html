@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $blogSettings := .Site.Data.homepage.blog }}
+{{ $newsSettings := .Site.Data.homepage.news }}
   <header>
     <h2>{{ .Title }}</h2>
   </header>
@@ -18,7 +18,7 @@
                   <p>{{ .Summary }}</p>
                   {{ end }}
                   <ul class="actions special">
-                      <li><a href="{{ .Permalink }}" class="button alt">{{ $blogSettings.buttonText }} </a></li>
+                      <li><a href="{{ .Permalink }}" class="button alt">{{ $newsSettings.buttonText }} </a></li>
                   </ul>
               </section>
           </div>

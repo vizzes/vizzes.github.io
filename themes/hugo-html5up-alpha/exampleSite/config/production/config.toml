@@ -43,9 +43,9 @@ enableEmoji = true
     url = "/about/"
     weight = 10
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/post/"
+    identifier = "news"
+    name = "News"
+    url = "/news/"
     weight = 20
   [[menu.main]]
     identifier = "taxonomies"

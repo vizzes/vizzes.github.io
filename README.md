@@ -1,2 +1,2 @@
-# Site2
-New website for GooseMod.
+# Webseite
+Dies Webseite zu mc.vizzes.de

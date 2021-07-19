@@ -12,7 +12,7 @@ disqusShortname = ""
   author = "Hugo Port: [Nelson/Roberto](https://nelsonroberto.com/)"
   copyright = "© Untitled. All rights reserved."
   design = "Design: [HTML5 UP](http://html5up.net/)"
-  mainSections = ["blog"]
+  mainSections = ["news"]
 
 ### Footer Social Media Links ###
 [[params.share]]

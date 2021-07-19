@@ -13,7 +13,7 @@ disqusShortname = ""
   author = "Hugo Port: [Nelson/Roberto](https://nelsonroberto.com/)"
   copyright = "© Untitled. All rights reserved."
   design = "Design: [HTML5 UP](http://html5up.net/)"
-  mainSections = ["blog"]
+  mainSections = ["news"]
 
 ### Footer Social Media Links ###
 [[params.share]]
@@ -50,9 +50,9 @@ link = "https://www.linkedin.com"
     url = "/elements/"
     weight = 30
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    identifier = "news"
+    name = "news"
+    url = "/news/"
     weight = 40
   [[menu.main]]
     identifier = "submenu"

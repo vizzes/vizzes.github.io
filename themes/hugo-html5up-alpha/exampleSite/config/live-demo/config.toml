@@ -19,9 +19,9 @@ baseURL = "https://hugo-html5up-alpha.nelsonroberto.com/"
     url = "/elements/"
     weight = 30
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    identifier = "news"
+    name = "news"
+    url = "/news/"
     weight = 40
   [[menu.main]]
     identifier = "submenu"

@@ -2,13 +2,13 @@
 <footer id="footer">
     <ul class="icons">
         {{ range .Site.Params.share }}
-            <li><a href="{{ .link }}" class="icon brands {{ .icon }}"><span class="label">{{ .title }}</span></a></li>
+            <li><a href="{{ .link }}" class="icon {{ .icon }}"><span class="label">{{ .title }}</span></a></li>
         {{ end }}
     </ul>
 
     <ul class="copyright">
         {{ with .Site.Params.copyright }}
-        <li>Copyright © GooseNest Team. GooseMod is not affiliated with Discord.</li>
+        <li>Copyright © Vizzes.</li>
         {{ end }}
     </ul>
 </footer>

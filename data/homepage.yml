@@ -2,19 +2,12 @@
 banner:
   enable: true
   image: #default is 'images/banner.jpg'
-  title: "GooseMod"
-  content: "A light, secure, and easy to use Discord mod" # Change this if you want something other then the site description
+  title: "mc.vizzes.de"
+  content: "Der beste deutsche Minecraft Server" # Change this if you want something other then the site description
   buttons:
-    - title: "Install"
-      link: "#"
-      class: "primary"
-      icon: "fa-cloud-download-alt"
     - title: "Discord"
       icon: "fa-comments"
-      link: "https://goosemod.com/discord"
-    - title: "GitHub"
-      icon: "fa-code-branch"
-      link: "https://github.com/GooseMod/GooseMod"
+      link: "/discord"
 
 ### Highlight ###
 highlight:
@@ -28,65 +21,43 @@ features:
   enable: true
   rows:
     - items:
-      - title: "Light"
-        icon: "fa-bolt"
+      - title: "Ein gutes Spiel!"
+        icon: "fa-square-full"
         accent: "accent2" #accent values are 1-8
-        content: "GooseMod has a small, integrated, and modular codebase allowing it to be light and fast whilst also powerful and easy to use."
-      - title: "Store"
-        icon: "fa-store"
+        content: "Minecraft ist eines der größten und spaßigsten Spiele mit über 130 Millionen aktiven Spielern."
+      - title: "Viele Gamemodes"
+        icon: "fa-gamepad"
         accent: "accent3" #accent values are 1-8
-        content: "We have a built-in Store where you can easily install themes and plugins, no opening your file manager or using a terminal."
+        content: "Wir haben einen spaßigen GTA Modus, ein Parkour und noch viele weitere Gamemodes"
     - items:
-        - title: "Beautiful"
+        - title: "Wunderschön"
           icon: "fa-eye"
           accent: "accent4" #accent values are 1-8
-          content: "Our UI heavily matches Discord's own, letting you seamlessly enhance your Discord experience with themes, plugins, and more."
-        - title: "Secure"
+          content: "Wir haben ein eigenes Bauteam was jede Map schön und detailreich baut. Außerdem wurde jeder Block sorgfältig gewählt. Du hast unser Wort!"
+        - title: "Sicher"
           icon: "fa-lock"
           accent: "accent6" #accent values are 1-8
-          content: "GooseMod is one of the most secure mods due to it not using Node.js and only using themes and plugins from our Store."
+          content: "Unser Server ist sicher vor Griefing & Hacking so dass du dir keine Sorgen machen musst und einfach das Spiel genießen kannst."
 
 
 stats:
   rows:
     - items:
-      - text: "Themes"
-        stat: "110"
-      - text: "Plugins"
-        stat: "74"
-      - text: "Developers"
-        stat: "89"
+      - text: "GTA Modus"
+      - text: "Parkour"
+      - text: "und noch vieles mehr..."
 
 
-### Blog ###
-blog:
+### News ###
+news:
   enable: true
   # Leave header text blank to remove entire <section>
   header: "News"
-  buttonText: "Read More"
-  postCount: 2
+  buttonText: "Lese mehr"
+  postCount: 1
 
 ### Call to Action ###
 cta:
   enable: false
   header: "Sign up for beta access"
   content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc."
-
-
-installer:
-  channels:
-    - "Stable"
-    - "PTB"
-    - "Canary"
-    - "Development"
-  
-  mods:
-    major:
-      - "BetterDiscord"
-      - "SmartCord"
-    
-    minor:
-      - "GooseMod"
-  
-  tools:
-    - "React DevTools"

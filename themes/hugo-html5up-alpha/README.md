@@ -6,7 +6,7 @@ Hugo HTML5up Alpha is a port of the static HTML template [Alpha by HTML5 UP](htt
 
 ## Features
 
-- Blog
+- news
 - Sections
 - Taxonomies
 - Page bundles
@@ -43,7 +43,7 @@ The homepage has five sections that are customizable and removable.
 - Banner
 - Highlight
 - Features
-- Blog
+- news
 - Call to Action
 
 Settings for the homepage come from `data\homepage.yml`.
@@ -91,8 +91,8 @@ features:
           accent: "accent5" #accent values are 1-8
           content: "Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros."
 
-### Blog ###
-blog:
+### news ###
+news:
   enable: true
   # Leave header text blank to remove entire <section>
   header: "Recent Posts"

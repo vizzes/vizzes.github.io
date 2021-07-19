@@ -1,22 +1,26 @@
-languageCode = "en-us"
-title = "GooseMod"
+languageCode = "de"
+title = "mc.vizzes.de"
 baseURL = "/"
 theme = "hugo-html5up-alpha"
-paginate = 2
+disqusShortname = "pukimas-personal-website"
 
 [params]
-  description = "A light, secure, and easy to use Discord mod"
-  images = ["/img/logo.jpg"]
+  description = "Der beste deutsche Minecraft Server"
+  images = ["/img/logo.png"]
   author = ""
-  copyright = "Copyright © GooseNest Team. GooseMod is not affiliated with Discord."
+  copyright = "Copyright © Vizzes."
   design = ""
   mainSections = ["blog"]
 
 [[params.share]]
 title = "twitter"
-icon = "fa-twitter"
+icon = "brands fa-twitter"
 link = "https://twitter.com/Goose_Mod"
 
+[[params.share]]
+title = "RSS"
+icon = "solid fa-rss"
+link = "/index.xml"
 
 ## Markdown Settings
 enableEmoji = true
