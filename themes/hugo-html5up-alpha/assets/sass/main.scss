@@ -405,9 +405,6 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		}
 	}
 
-	footer {
-	}
-
 /* Form */
 
 	form {
@@ -485,7 +482,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -1175,8 +1172,9 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
+			left: 50%;
+			transform: translate(-50%);
 			position: absolute;
-			top: 0;
 
 			a {
 				color: _palette(header, fg-bold);
@@ -1723,12 +1721,6 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 			#header {
 				display: none;
-			}
-
-		/* Banner */
-
-			#banner {
-				//padding: 6em 2em;
 			}
 
 		/* Nav */
