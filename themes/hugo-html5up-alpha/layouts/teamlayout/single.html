@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <header>
+    <h2>{{ .Title }}</h2>
+    {{ with .Date }}
+    <p>{{ .Format "2. Jan 2006" }}</p>
+    {{ end }}
+  </header>
+  <!-- Team -->
+  {{ if .Site.Data.teampage.team.enable }}
+  {{ with .Site.Data.teampage.team }}
+        <style>h3{margin: 0;}</style>
+          {{ range .rows }}
+          <div class="row">
+              {{ range .items }}
+              <div class="col-6 col-12-narrower">
+                  <section class="box special">
+                      <span><img class="icon major" src="{{ .image }}"></img></span>
+                      <h3>{{ .title }}</h3>
+                      <h4>{{ .role }}</h4>
+                      <p>{{ .content }}</p>
+                  </section>
+              </div>
+              {{ end }}
+          </div>
+          {{ end }}
+  {{ end }}
+  {{ end }}
+  </div>
+{{ end }}

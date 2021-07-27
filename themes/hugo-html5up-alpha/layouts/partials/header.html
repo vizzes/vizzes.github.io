@@ -1,0 +1,4 @@
+<!-- Header -->
+<header id="header" {{- if .IsHome -}}class="alt"{{- end -}}>
+    <h1><a href="/">{{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{else}}{{ .Site.Title }}{{end}}</a></h1>
+</header>

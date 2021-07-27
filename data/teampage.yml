@@ -1,0 +1,22 @@
+### Team ###
+team:
+  enable: true
+  rows:
+    - items:
+      - title: "Focus"
+        role: "Gründer & Organisator"
+        image: "https://cdn.discordapp.com/avatars/723054802136858634/407e0f685d83ad2f39b872674484fec1.png?size=128"
+        content: "Er ist der Gründer und Organisator des ganzen Projektes. Ohne ihn würde dieses Projekt nicht sein was es nun ist."
+      - title: "Pukima"
+        role: "Web-Developer"
+        image: "https://branding.pukima.site/images/logos/logo_small_square.png"
+        content: "Er ist der Web-Developer und verantwortlich für diese Webseite."
+    - items:
+        - title: "iinsu"
+          role: "Designer"
+          image: "https://cdn.discordapp.com/avatars/751235521388347463/90f4840142b7ec2c0a0f821e94b5d021.png?size=128"
+          content: "Er ist unser Designer und macht alle Grafiken für den Server und außerhalb."
+        - title: "Öpol"
+          role: "Plugin-Developer"
+          image: "https://cdn.discordapp.com/avatars/769923297764179978/393079159f6391bdfa3f673828033510.png?size=128"
+          content: "Er ist der Programmierer für alle benutzerdefienierten Plugins des Servers."

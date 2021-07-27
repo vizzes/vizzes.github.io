@@ -11,9 +11,9 @@ banner:
     - title: "Neuigkeiten"
       icon: "solid fa-bullhorn"
       link: "/news"
-    - title: "Forum"
-      icon: "solid fa-comments"
-      link: "/forum"
+    - title: "Team"
+      icon: "solid fa-user-friends"
+      link: "/team"
 
 ### Highlight ###
 highlight:
