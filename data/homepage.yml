@@ -34,7 +34,7 @@ features:
       - title: "Viele Gamemodes"
         icon: "fa-gamepad"
         accent: "accent3" #accent values are 1-8
-        content: "Wir haben einen spaßigen GTA Modus, ein Parkour und noch viele weitere Gamemodes"
+        content: "Wir haben einen realistischen GTA Modus und viele Minigames."
     - items:
         - title: "Wunderschön"
           icon: "fa-eye"
@@ -49,8 +49,8 @@ features:
 stats:
   rows:
     - items:
-      - text: "GTA Modus"
-      - text: "Parkour"
+      - text: "GTA"
+      - text: "Minigames"
       - text: "und noch vieles mehr..."
 
 
