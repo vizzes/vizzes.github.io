@@ -419,21 +419,22 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 	}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
+	input,
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
 		background-color: _palette(border-bg);
 		border-radius: _size(border-radius);
 		border: solid 1px _palette(border);
-		color: inherit;
+		color: #131313;
+		width: 30% !important;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		margin-bottom: 5px;
+		height: 64px;
 
 		&:invalid {
 			box-shadow: none;
@@ -443,6 +444,20 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			border-color: _palette(accent2, bg);
 			box-shadow: 0 0 0 2px _palette(accent2, bg);
 		}
+	}
+
+	input[type="date"] {
+		color: #bbbbbb;
+	}
+
+	.required {
+		color: red;
+		font-size: 10px;
+		vertical-align: text-top;
+	}
+
+	#countWord {
+		margin-top: -30px !important;
 	}
 
 	select {

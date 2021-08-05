@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <header>
+    <h2>{{ .Title }}</h2>
+    {{ with .Date }}
+    <p>{{ .Format "2. Jan 2006" }}</p>
+    {{ end }}
+  </header>
+  <div class="box">
+    {{ with partial "bannerURL" . }}
+    <span class="image featured"><img src="{{ . }}" alt="" /></span>
+    {{ end }}
+    {{ .Content }}
+    {{ partial "tags" . }}
+  </div>
+{{ end }}
