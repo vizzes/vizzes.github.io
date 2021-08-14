@@ -1,0 +1,34 @@
+{{ define "main" }}
+    <header>
+        <h2>{{ .Title }}</h2>
+        {{ with .Date }}
+        <p>{{ .Format "2. Jan 2006" }}</p>
+        {{ end }}
+    </header>
+    {{ .Content }}
+    <form action="https://formsubmit.co/787c954535ab6089299c1e9b0e13309f" method="POST" />
+        E-Mail:<input type="email" name="E-Mail" placeholder="max@mustermann.de" required>
+        Discord:<input type="text" name="Discord" placeholder="wumpus#0000" required>
+        Minecraft Name:<input type="text" name="Minecraft Name" placeholder="Name" required>
+        Warum wurdest du gebannt?<input type="text" name="Warum wurdest du gebannt?" placeholder="Grund" required>
+        Wann wurdest du gebannt?<input type="date" name="Wann wurdest du gebannt?" required>
+        Von wem wurdest du gebannt?<input type="text" name="Von wem wurdest du gebannt?" placeholder="Name" required>
+        Hast du die Regeln gebrochen?<input list="jn" name="Regelbruch" placeholder="Ja/Nein" required>
+        Entbannubgsantrag:<input type="text" required></textarea>
+
+        <!--JA/NEIN-->
+        <datalist id="jn">
+            <option value="Ja">
+            <option value="Nein">
+        </datalist>
+
+        <!--Metadata-->
+        <input type="hidden" name="_subject" value="Ban Appeal">
+        <input type="hidden" name="_next" value="http://localhost:1313/form/done/">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+
+        <br><button type="submit">Abschicken</button>
+    </form>
+{{ end }}
